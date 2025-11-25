@@ -66,8 +66,7 @@ for tag in soup.find_all(["h1", "h2", "h3", "h4"]):
             menu[current_day][current_meal][current_zone].append(dish)
 
 
-# Quick sanity check
-
+# Example usage: print menu for a specific day and meal
 day = input("Enter day (e.g., Monday): ").strip().capitalize()
 meal = input("Enter meal (Breakfast, Lunch, Dinner): ").strip().capitalize()
 
